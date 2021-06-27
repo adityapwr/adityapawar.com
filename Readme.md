@@ -1,1 +1,1 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/86f15022-7b8f-46ec-a211-c5709d6a635f/deploy-status)](https://app.netlify.com/sites/trusting-mahavira-25fa31/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2e4a142f-1a94-42a7-9ca4-e012fc2b38f9/deploy-status)](https://app.netlify.com/sites/upbeat-joliot-ee9ab3/deploys)

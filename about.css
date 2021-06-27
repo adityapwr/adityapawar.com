@@ -8,12 +8,27 @@
 
 .u-section-1 .u-text-1 {
   font-size: 4.5rem;
-  margin: 60px auto 0 0;
+  margin: 273px 819px 0 0;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 228px;
+  height: 228px;
+  animation-duration: 1000ms;
+  margin: -228px 124px 0 auto;
+}
+
+.u-section-1 .u-shape-2 {
+  width: 128px;
+  height: 128px;
+  background-image: none;
+  animation-duration: 1000ms;
+  margin: -242px 231px 0 auto;
 }
 
 .u-section-1 .u-text-2 {
-  font-size: 1.5rem;
-  margin: 53px 231px 0 0;
+  font-size: 1.875rem;
+  margin: 176px 231px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -32,7 +47,7 @@
   width: 122px;
   min-width: 94px;
   white-space: nowrap;
-  margin: 223px 0 60px auto;
+  margin: 65px 0 60px auto;
 }
 
 .u-section-1 .u-icon-1 {
@@ -56,34 +71,107 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: 619px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-right: 31px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    margin-right: 145px;
+  }
+
   .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: 167px;
     margin-right: 31px;
   }
 
   .u-section-1 .u-social-icons-1 {
-    margin-top: 140px;
+    margin-top: 83px;
   }
 }
 
 @media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 297px;
+    margin-right: 399px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-2 {
+    margin-top: -244px;
+    margin-right: 122px;
+  }
+
   .u-section-1 .u-text-2 {
+    margin-top: 171px;
     margin-right: 0;
   }
 
   .u-section-1 .u-social-icons-1 {
-    margin-top: 141px;
+    margin-top: 55px;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
-    margin-top: 127px;
+    margin-top: 220px;
+    margin-right: 219px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    margin-top: -245px;
+    margin-right: 114px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 155px;
+  }
+
+  .u-section-1 .u-social-icons-1 {
+    margin-top: 65px;
+    margin-bottom: 11px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-text-1 {
-    font-size: 2.25rem;
-    margin-top: 70px;
+    font-size: 3rem;
+    margin-top: 255px;
+    margin-right: 19px;
   }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: -267px;
+    margin-right: -23px;
+  }
+
+  .u-section-1 .u-shape-2 {
+    margin-top: -228px;
+    margin-right: auto;
+    margin-left: 59px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.5rem;
+    margin-top: 161px;
+  }
+
+  .u-section-1 .u-social-icons-1 {
+    margin-top: 40px;
+    margin-bottom: 44px;
+  }
+}@font-face {
+  font-family: 'Romanica';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Romanica.ttf);
 }

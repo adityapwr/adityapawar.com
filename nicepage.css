@@ -19603,7 +19603,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: Romanica;
 }
 h1,
 h2,
@@ -19611,7 +19611,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+  font-family: Romanica;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -19631,10 +19631,10 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Open Sans',sans-serif !important;
+  font-family: Romanica !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
+  font-family: Romanica !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -34741,7 +34741,11 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
   }
 }
-
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    width: 64px;
+  }
+}
 .u-footer .u-sheet-1 {
   min-height: 120px;
 }
